@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+/* line 3, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1c1c1c;
+  color: #fff;
+  margin: 0;
+}
+
+/* line 8, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 12, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 0;
+}
+
+/* line 20, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 22, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* line 27, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  width: 165px;
+  height: 50px;
+  background: #F6762C;
+  border-radius: 5px;
+  transition: opacity 0.3s;
+}
+
+/* line 38, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* line 43, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header {
+  padding: 25px 0;
+}
+
+/* line 45, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 50, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header__nav a {
+  font-size: 14px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+/* line 54, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header__nav a:hover {
+  opacity: 1;
+}
+
+/* line 56, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header__nav a.active {
+  opacity: 1;
+}
+
+/* line 58, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header__nav a.active:hover {
+  opacity: 0.7;
+}
+
+/* line 61, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.header__list {
+  display: flex;
+  gap: 30px;
+}
+
+/* line 64, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.welcome {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 240px 0;
+  margin-top: -100px;
+  background-image: url("../img/background-burger.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 74, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.welcome__container__wrapper {
+  width: 550px;
+}
+
+/* line 76, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.welcome__container__subtitle {
+  margin-bottom: 7px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+/* line 80, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.welcome__container__title {
+  margin-bottom: 37px;
+  font-size: 58px;
+}
+
+/* line 83, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.welcome__container__desc {
+  margin-bottom: 42px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+/* line 88, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.food-list {
+  padding: 100px 0;
+}
+
+/* line 90, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.food-list .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* line 95, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.food-list__card {
+  overflow: hidden;
+  text-align: center;
+  width: 260px;
+  background: #312F30;
+  border-radius: 10px;
+}
+
+/* line 101, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.food-list__card__title {
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+
+/* line 104, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.food-list__card__desc {
+  font-size: 16px;
+  padding-bottom: 30px;
+  opacity: 0.7;
+}
+
+/* line 108, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.food-list__card img {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  margin-bottom: 28px;
+}
+
+/* line 114, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order {
+  background: #312F30;
+  padding: 60px 0;
+}
+
+/* line 117, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order .btn {
+  margin-top: 10px;
+}
+
+/* line 119, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order__title {
+  font-size: 44px;
+  margin-bottom: 25px;
+}
+
+/* line 122, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order__desc {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+/* line 126, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order__price {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #F6762C;
+}
+
+/* line 131, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order__old-price {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #F6762C;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+/* line 138, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.order .container {
+  display: flex;
+  padding-right: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 145, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product {
+  padding: 150px 0;
+}
+
+/* line 147, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* line 153, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card {
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 555px;
+  mim-height: 300px;
+  padding: 60px 0 60px 290px;
+}
+
+/* line 161, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card:nth-child(even) {
+  padding: 60px 0 60px 50px;
+}
+
+/* line 163, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 166, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card__desc {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+/* line 170, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card__price {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #F6762C;
+}
+
+/* line 175, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card__old-price {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+  color: #F6762C;
+  text-decoration: line-through;
+}
+
+/* line 182, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card .btn_small {
+  font-size: 12px;
+  width: 140px;
+  height: 40px;
+}
+
+/* line 186, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.product__card .btn {
+  margin-top: 10px;
+}
+
+/* line 189, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.card-queen {
+  background-image: url("../img/queen.png");
+}
+
+/* line 191, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.card-hut {
+  background-image: url("../img/hut.png");
+}
+
+/* line 193, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.card-king {
+  background-image: url("../img/king.png");
+}
+
+/* line 195, ../../../../../Users/zayats/Desktop/burger/scr/sass/style.sass */
+.card-papa {
+  background-image: url("../img/papa.png");
+}
+
+/*# sourceMappingURL=style.css.map */
